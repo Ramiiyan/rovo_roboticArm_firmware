@@ -21,9 +21,6 @@
 WiFiClient espClient;
 MQTTClient mqtt;
 
-//Creat object to represent PCA9685 at default I2C address
-Adafruit_PWMServoDriver pca9685 = Adafruit_PWMServoDriver(0x40);  
-
 String clientId = "";
 String getmsg;
 char setmsg[150];
